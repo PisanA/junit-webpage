@@ -1,6 +1,6 @@
 ## T4G JUnit Testing Framework
 
-The T4G team (An Nguyen, Jeremy Zhang, Margaret Lanphere) has developed a testing framework to execute JUnit tests for Java assignments. We will utilize Github classroom to distribute students starter code along with using Github as the platform to execute tests. This webpage will demonstrate the significance of each portion of the framework and a tutorial regarding to setup.
+The T4G team (An Nguyen, Jeremy Zhang, Margaret Lanphere, Ed Adshire) has developed a testing framework to execute JUnit tests for Java assignments. We will utilize Github classroom to distribute students starter code along with using Github as the platform to execute tests. This webpage will demonstrate the significance of each portion of the framework and a tutorial regarding to setup.
 
 ### Breakdown
 Every assignment will utilize two repositories to provide the starter files and testing framework. Please use those repositories as a base for working on your next upcoming assignment.
@@ -23,8 +23,9 @@ Once the setup process is complete, we would want to start distributing the assi
 - The starter repository will be pointed at the public starter repository as mentioned in the breakdown above.
 
 ### Checking Feedback
-When students check for feedback, follow these process.
-#### Action
+Each commit generates a workflow that contains all feedback. The feedback can be found in Actions ![image](https://user-images.githubusercontent.com/54456351/135796086-f489bbbb-76c9-401e-80ae-94fe5e799482.png)
+
+#### Actions
 Once you're ready to test them, edit the template files and they will be tested using GitHub Actions. 
 
 You'll get 3 kinds of feedback:
@@ -51,8 +52,9 @@ Click on the left sidebar on "checkstyle" to view the Checkstyle report. <br>
 ![image](https://user-images.githubusercontent.com/54456351/129306692-6959b6b7-308c-452e-aa44-64fd21ee95de.png) <br>
 If you have any compilation errors, CheckStyle report will not be generated. Please view the JUnit Report and debug all errors first.
 
-##### For more detatils on the CheckStyle warning, you can view this website:  <a href="https://pisana.github.io/checkstyle-webpage/">checkstyle-webpage</a>
-##### If you don't see your warnings on the website, please fill this survey so that we can add them: <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1M4lW8zU0gfX2b0JHl3O0-vluhYhtCcvS2Ox0z3LDCwWEHg/viewform">New CheckStyle Warning</a> 
+##### For more detatils on the CheckStyle warning, you can view this website: <a href="https://pisana.github.io/checkstyle-webpage/">checkstyle-webpage</a>
+The website contains the most common Checkstyle warnings with detailed examples. 
+For more information about other warnings, please view <a href="https://checkstyle.sourceforge.io/styleguides/google-java-style-20180523/javaguide.html">Google Java Style Guide</a> <br>
 
 <br><br>
 #### Misspell
@@ -62,7 +64,7 @@ Click "misspell" to view found mispellings.
 #### JUnit Report
 Scroll to the bottom and download the artifact to view your detailed test report. <br>
 Click "Compile-Run-Report" to download the report. 
-It is a zipped folder that will contain a test report and/or a build message file.  
+It is a zipped folder that will contain a test report and/or a build text file.  
 
 ![image](https://user-images.githubusercontent.com/54456351/129307490-b6f27859-9ea2-4b68-8712-9b211b827322.png) <br>
 
