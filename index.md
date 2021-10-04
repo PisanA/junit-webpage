@@ -4,9 +4,9 @@ The T4G team (An Nguyen, Jeremy Zhang, Margaret Lanphere) has developed a testin
 
 ### Breakdown
 Every assignment will utilize two repositories to provide the starter files and testing framework. Please use those repositories as a base for working on your next upcoming assignment.
-- [junit-demo-starter](https://github.com/PisanA/junit-demo-starter) ("starter repository"): This repository contains all the files provided to students as a starter code. The beauty of this layout allows all Java files to be distributed at root level. Students do not need to dig into folders to find their needed files.
+- [junit-demo-starter](https://github.com/PisanA/junit-demo-starter) (**Public** "starter repository"): This repository contains all the files provided to students as a starter code. The beauty of this layout allows all Java files to be distributed at root level. Students do not need to dig into folders to find their needed files.
   - [.github/workflows/testreport.yml](https://github.com/PisanA/junit-demo-starter/blob/master/.github/workflows/testreport.yml): Updating the `parent_repo` environment variable sets the location where the JUnit tests are located.
-- [junit-demo-tests](https://github.com/PisanA/junit-demo-tests) ("tests repository"): This repository contains the testing framework toe execute Junit tests on student repositories. 
+- [junit-demo-tests](https://github.com/PisanA/junit-demo-tests) (**Private** "tests repository"): This repository contains the testing framework toe execute Junit tests on student repositories. 
   - [src/main/java](https://github.com/PisanA/junit-demo-tests/tree/master/src/main/java): Where solution files are held. Can help with developing the assignment to determine if the assignment solution will pass the given JUnit tests.
   - [src/test/java](https://github.com/PisanA/junit-demo-tests/tree/master/src/test/java): Contains the JUnit test that will run on the assignment. Please name all your JUnit tests to end with `Test` in the class names. Such as `MainTest.java`, or `StudentTest.java`, etc.
     - [MainTest.java](https://github.com/PisanA/junit-demo-tests/blob/master/src/test/java/MainTest.java): Please see this annotated file to learn more about writing JUnit tests to capture scanner input, printing, and more.
@@ -17,3 +17,6 @@ Because we are working with private testing repositories, Github actions will ne
 2. Visit the [orginzation settings](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-an-organization), secrets page.
 3. Create a new orgization secret with the name `TOKEN` and the value copied from step 1. Repository access is Private repositories.
 
+### Github Classroom Setup
+Once the setup process is complete, we would want to start distributing the assignments to students. We will use Github classroom as a method to distribute starter code. 
+- Create an assignment on [Github Classroom](https://classroom.github.com/). Students do not need admin access to their repository.
