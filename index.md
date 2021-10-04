@@ -10,6 +10,7 @@ Every assignment will utilize two repositories to provide the starter files and 
   - [src/main/java](https://github.com/PisanA/junit-demo-tests/tree/master/src/main/java): Where solution files are held. Can help with developing the assignment to determine if the assignment solution will pass the given JUnit tests.
   - [src/test/java](https://github.com/PisanA/junit-demo-tests/tree/master/src/test/java): Contains the JUnit test that will run on the assignment. Please name all your JUnit tests to end with `Test` in the class names. Such as `MainTest.java`, or `StudentTest.java`, etc.
     - [MainTest.java](https://github.com/PisanA/junit-demo-tests/blob/master/src/test/java/MainTest.java): Please see this annotated file to learn more about writing JUnit tests to capture scanner input, printing, and more.
+  - Other files: If any non-java files are used, they need to be in the root folder so that programs in both src/main/java and src/test/java can access them.
 
 ### Token setup
 Because we are working with private testing repositories, Github actions will need to clone the tests repository to execute the tests. As such we need to save our Github access token into a `TOKEN` organization secret. This is a one time setup and will only be required each time the token expires.
