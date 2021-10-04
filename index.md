@@ -20,6 +20,7 @@ Because we are working with private testing repositories, Github actions will ne
 ### Github Classroom Setup
 Once the setup process is complete, we would want to start distributing the assignments to students. We will use Github classroom as a method to distribute starter code. 
 - Create an assignment on [Github Classroom](https://classroom.github.com/). Students do not need admin access to their repository.
+- The starter repository will be pointed at the public starter repository as mentioned in the breakdown above.
 
 ### Checking Feedback
 When students check for feedback, follow these process.
