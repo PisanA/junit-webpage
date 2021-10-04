@@ -1,6 +1,6 @@
 ## T4G JUnit Testing Framework
 
-The T4G team (An Nguyen, Jeremy Zhang, Margaret Lanphere, Ed Adshire) has developed a testing framework to execute JUnit tests for Java assignments. We will utilize Github classroom to distribute students starter code along with using Github as the platform to execute tests. This webpage will demonstrate the significance of each portion of the framework and a tutorial regarding to setup.
+The T4G team (An Nguyen, Jeremy Zhang, Margaret Lanphere, and Ed Abshire) has developed a testing framework to execute JUnit tests for Java assignments. We will utilize Github classroom to distribute students starter code along with using Github as the platform to execute tests. This webpage will demonstrate the significance of each portion of the framework and a tutorial regarding to setup.
 
 ### Breakdown
 Every assignment will utilize two repositories to provide the starter files and testing framework. Please use those repositories as a base for working on your next upcoming assignment.
@@ -21,6 +21,7 @@ Because we are working with private testing repositories, Github actions will ne
 ### Github Classroom Setup
 Once the setup process is complete, we would want to start distributing the assignments to students. We will use Github classroom as a method to distribute starter code. 
 - Create an assignment on [Github Classroom](https://classroom.github.com/). Students do not need admin access to their repository.
+  - Owners of the Github Classroom can view/edit all students' repositories, but students cannot view others' repositories.
 - The starter repository will be pointed at the public starter repository as mentioned in the breakdown above.
 
 ### Checking Feedback
