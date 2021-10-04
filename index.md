@@ -15,6 +15,5 @@ Every assignment will utilize two repositories to provide the starter files and 
 Because we are working with private testing repositories, Github actions will need to clone the tests repository to execute the tests. As such we need to save our Github access token into a `TOKEN` organization secret. This is a one time setup and will only be required each time the token expires.
 1. Create a [personal access token](https://github.com/settings/tokens) with the scope **repo** for full control of private repositories.
 2. Visit the [orginzation settings](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-an-organization), secrets page.
-3. Create a new orgization secret with the name `TOKEN` and the value copied from step 1. 
-  - Repository access is Private repositories.
+3. Create a new orgization secret with the name `TOKEN` and the value copied from step 1. Repository access is Private repositories.
 
