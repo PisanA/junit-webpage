@@ -1,37 +1,8 @@
-## Welcome to GitHub Pages
+## T4G JUnit Testing Framework
 
-You can use the [editor on GitHub](https://github.com/PisanA/junit-webpage/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The T4G team (An Nguyen, Jeremy Zhang, Margaret Lanphere) has developed a testing framework to execute JUnit tests for Java assignments. We will utilize Github classroom to distribute students starter code along with using Github as the platform to execute tests. This webpage will demonstrate the significance of each portion of the framework and a tutorial regarding to setup.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PisanA/junit-webpage/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Breakdown
+- [junit-demo-starter](https://github.com/PisanA/junit-demo-starter) ("starter repository"): This repository contains all the files provided to students as a starter code. The beauty of this layout allows all Java files to be distributed at root level. Students do not need to dig into folders to find their needed files.
+  - [.github/workflows/testreport.yml](https://github.com/PisanA/junit-demo-starter/blob/master/.github/workflows/testreport.yml): Updating the `parent_repo` environment variable sets the location where the JUnit tests are located.
+- [junit-demo-tests](https://github.com/PisanA/junit-demo-tests) ("tests repository"): This repository contains the testing framework toe execute Junit tests on student repositories. 
