@@ -57,8 +57,8 @@ If you have any compilation errors, CheckStyle report will not be generated. Ple
 ##### For more detatils on the CheckStyle warning, you can view this website: <a href="https://pisana.github.io/checkstyle-webpage/">checkstyle-webpage</a>
 The website contains the most common Checkstyle warnings with detailed examples. 
 For more information about other warnings, please view <a href="https://checkstyle.sourceforge.io/styleguides/google-java-style-20180523/javaguide.html">Google Java Style Guide</a> 
-
 <br>
+
 #### Misspell
 Click "misspell" to view found mispellings.
 ![image](https://user-images.githubusercontent.com/54456351/129307048-27f9297e-b80c-4e16-b430-9923917aa2a3.png)
