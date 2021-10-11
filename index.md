@@ -10,6 +10,7 @@ Every assignment will utilize two repositories to provide the starter files and 
   - [src/main/java](https://github.com/PisanA/junit-demo-tests/tree/master/src/main/java): Where solution files are held. Can help with developing the assignment to determine if the assignment solution will pass the given JUnit tests.
   - [src/test/java](https://github.com/PisanA/junit-demo-tests/tree/master/src/test/java): Contains the JUnit test that will run on the assignment. Please name all your JUnit tests to end with `Test` in the class names. Such as `MainTest.java`, or `StudentTest.java`, etc.
     - [MainTest.java](https://github.com/PisanA/junit-demo-tests/blob/master/src/test/java/MainTest.java): Please see this annotated file to learn more about writing JUnit tests to capture scanner input, printing, and more.
+  - [scores.txt](https://github.com/PisanA/junit-demo-tests/blob/master/scores.txt) (optional): Each tests defaults to a score of 5. However for customized score value, enter the test name (format `TestClassName.testMethodName`) followed by a space with the number to represent the score. One test per line.
   - Other files: If any non-java files are used, they need to be in the root folder so that programs in both src/main/java and src/test/java can access them.
 
 ### Token setup
